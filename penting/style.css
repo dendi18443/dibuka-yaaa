@@ -7,17 +7,18 @@ body {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     text-align: center;
     color: white;
-    overflow: hidden;
+    overflow: auto;
 }
 .container {
     padding: 20px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    position: relative;
+    position: static;
 }
 h1 {
     font-size: 30px;
+    display: ;
 }
 p {
     font-size: 15px;
@@ -81,7 +82,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .container {
@@ -124,7 +125,7 @@ p {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    overflow: hidden;
+    overflow: auto;
     z-index: 9999;
 }
 
