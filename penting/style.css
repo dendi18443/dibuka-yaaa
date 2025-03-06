@@ -14,12 +14,9 @@ body {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    position: static;
+    position: relative;
 }
-h1 {
-    font-size: 30px;
-    display: ;
-}
+
 p {
     font-size: 15px;
     margin-top: 10px;
@@ -182,13 +179,3 @@ p {
       font-size: 14px;
     }
   }
-
-
-h2{
-    font-size: 3em;
-    color: #e60073;
-}
-
-h2{
-    font: size 30px; ;
-}
